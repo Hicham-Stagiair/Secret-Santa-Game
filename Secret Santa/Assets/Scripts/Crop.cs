@@ -5,5 +5,6 @@ public class Crop : ScriptableObject
 {
     public string cropName;
     public int timeBetweenStages;
+    public int hydrationTime;
     public Sprite[] growthStages;
 }

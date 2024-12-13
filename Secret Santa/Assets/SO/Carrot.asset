@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cropName: Carrot
   timeBetweenStages: 3
+  hydrationTime: 5
   growthStages:
   - {fileID: 7482667652216324306, guid: 1a6f98b7645ad58469813f4d9a8291d3, type: 3}
   - {fileID: 7482667652216324306, guid: 2214697decbf39a40b21853e51500012, type: 3}
