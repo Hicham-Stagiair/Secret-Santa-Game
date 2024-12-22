@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44b0338d94a76984d93a3e497fc9cb6a, type: 3}
+  m_Name: Corn Crop
+  m_EditorClassIdentifier: 
+  cropName: Corn
+  timeBetweenStages: 5
+  hydrationTime: 20
+  growthStages:
+  - {fileID: -1802989014, guid: a2ce467055e3725479e4d5cd2a34ec06, type: 3}
+  - {fileID: 421583811, guid: a2ce467055e3725479e4d5cd2a34ec06, type: 3}
+  - {fileID: 1392979615, guid: a2ce467055e3725479e4d5cd2a34ec06, type: 3}
+  - {fileID: 992127397, guid: a2ce467055e3725479e4d5cd2a34ec06, type: 3}
+  witheredStage: {fileID: 0}
+  harvestItem: {fileID: 11400000, guid: f34e6234df715ef43bd2d797b35e9dae, type: 2}
